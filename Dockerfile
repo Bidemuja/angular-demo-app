@@ -1,5 +1,5 @@
 # Etapa de construcción
-FROM node:16 AS builder
+FROM node:18 AS builder 
 WORKDIR /app
 COPY . .
 RUN npm install --legacy-peer-deps
